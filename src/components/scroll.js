@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React from "react";
 
 const Scroll = (props) => {
   return (
@@ -9,7 +9,8 @@ const Scroll = (props) => {
         height: "700px",
       }}
     >
-      {props.children};
+      {" "}
+      {props.children};{" "}
     </div>
   );
 };
